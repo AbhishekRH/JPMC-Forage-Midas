@@ -8,8 +8,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 
 @SpringBootTest
 class TaskOneTests {
-    @MockBean
-    private KafkaProducer kafkaProducer;  // <-- mock KafkaProducer so Spring won't try to connect
 
     static final Logger logger = LoggerFactory.getLogger(TaskOneTests.class);
 
